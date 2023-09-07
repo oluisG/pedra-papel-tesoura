@@ -3,8 +3,7 @@
 #include <stdlib.h>
 #include <locale.h>
 
-	int main()
-	{
+	int main(){
 		//utilizando a função strcmp para fazer a comparação entre as duas strings//
 
 		char player[100];
@@ -22,8 +21,7 @@
 
 		printf("\nO Jogador 1 jogou %s e o Jogador 2 jogou %s\n\n", player, player2);
 
-		if (strcmp(player, "papel") == 0)
-		{
+		if (strcmp(player, "papel") == 0){
 			if (strcmp(player2, "papel") == 0){
 				printf("\nEmpate !\n");
 			}
